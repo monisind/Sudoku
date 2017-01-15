@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sudoku</title>
+
+    <!-- Angular Material CSS -->
+    <link rel="stylesheet" href="libs/angular-material/angular-material.css">
+    <link rel="stylesheet" href="components/sudokuGrid/sudokuGrid.css">
+
+    <!-- Angular Material Dependencies -->
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-animate/angular-animate.js"></script>
+    <script src="libs/angular-aria/angular-aria.js"></script>
+    <script src="libs/angular-messages/angular-messages.js"></script>
+    <script src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="libs/ng-resource/dist/ng-resource.js"></script>
+
+    <script src="libs/angular-material/angular-material.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.controller.js"></script>
+    <script src="app.routes.js"></script>
+    <script src="app.service.js"></script>
+    <script src="components/sudokuGrid/sudokuGrid.directive.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body ng-app="app" ng-cloak>
+    <div ui-view flex></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<div layout="column" layout-align="center center">
+
+    <h2 class="md-display-1">Sudoku Solver</h2>
+    <md-button class="md-primary md-raised" ng-click="solve()">Solve</md-button>
+
+    <md-card>
+        <md-card-content>
+            <div layout="column" layout-gt-xs="row">
+                <div flex>
+                    <sudoku-grid  data1="sudoku"></sudoku-grid>
+                </div>
+
+                <div flex>
+                    <sudoku-grid  data1="solution" data2="sudoku"></sudoku-grid>
+                </div>
+            </div>
+        </md-card-content>
+    </md-card>
+</div>
+
+

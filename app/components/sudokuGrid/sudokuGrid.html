@@ -1,0 +1,7 @@
+<table>
+  <tr ng-repeat="row in displayGrid" ng-class="{'block' : $index % 3 == 0 }" ng-init="rowIndex = $index">
+    <td ng-repeat="cell in row track by $index" ng-class="{'block' : $index % 3 == 0, 'cellBackground': getCellBackground(rowIndex, $index), 'highlightCell': highlightCell(rowIndex, $index)}">
+      {{ cell==0? '' : cell}}
+    </td>
+  </tr>
+</table>

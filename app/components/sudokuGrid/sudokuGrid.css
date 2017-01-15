@@ -1,0 +1,33 @@
+table {
+  border-collapse: collapse;
+  margin: 40px;
+  border: 3px solid black;
+  width: 300px;
+}
+
+th,td {
+  border: 1px solid black;
+}
+
+td {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+table tr.block {
+  border-top: 3px solid black;
+}
+
+table td.block {
+  border-left: 3px solid black;
+}
+
+.cellBackground{
+  background-color: #e4e4e4;
+}
+
+.highlightCell{
+  font-weight: bold;
+  color: royalblue;
+}
